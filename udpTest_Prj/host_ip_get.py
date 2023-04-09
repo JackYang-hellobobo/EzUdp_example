@@ -1,3 +1,3 @@
 import socket
 hostip = socket.gethostbyname(socket.gethostname())
-print(hostip)
+print("Local IP Address: "+hostip)
